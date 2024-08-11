@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
-  --highlight-color: rgba(255,255,255,0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg: url(./assets/moon-stars.svg);
 }
 
@@ -33,7 +34,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0;
   padding: 0 24px;
 }
